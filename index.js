@@ -154,7 +154,7 @@ module.exports = function (opts) {
         output: {
           comments: false
         },
-        sourceMap: false
+        sourceMap: true
       }),
       new ExtractTextPlugin(config.output.cssFilename, {
         allChunks: true
